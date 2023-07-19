@@ -29,7 +29,7 @@ public class HelloResource {
       	  response = "Hello world from host " + hostname + "\n";
       	} else {
       	  response = "Hello world from host [" + hostname + "].\n";
-      	  response += "Message received = " + message.get() + "\n";
+      	  response += "Message received = " + message + "\n";
         }
         return response;
     }
